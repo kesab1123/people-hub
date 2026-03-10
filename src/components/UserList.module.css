@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@400;500&family=DM+Mono&display=swap');
+
+.page {
+  min-height: 100vh;
+  background: #0b0c14;
+  padding: 56px 24px 80px;
+  box-sizing: border-box;
+}
+
+.header {
+  max-width: 900px;
+  margin: 0 auto 48px;
+}
+
+.eyebrow {
+  font-family: 'DM Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 3px;
+  color: #4a4870;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+}
+
+.title {
+  font-family: 'Syne', sans-serif;
+  font-size: 52px;
+  font-weight: 800;
+  color: #edeaf8;
+  margin: 0;
+  line-height: 1;
+}
+
+.accent {
+  width: 40px;
+  height: 3px;
+  background: linear-gradient(90deg, #7c6af0, #c084fc);
+  border-radius: 2px;
+  margin-top: 16px;
+}
+
+.subtitle {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  color: #4a4870;
+  margin: 12px 0 0;
+}
+
+.grid {
+  max-width: 900px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.error {
+  text-align: center;
+  font-family: 'DM Mono', monospace;
+  color: #c084fc;
+  font-size: 14px;
+  margin-top: 60px;
+}
+
+.skeleton {
+  background: #12111f;
+  border: 1px solid #1e1d30;
+  border-radius: 16px;
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.skCircle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #1e1d30;
+}
+
+.skLine {
+  height: 12px;
+  background: #1e1d30;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.shimmer {
+  animation: shimmer 1.5s ease infinite;
+}
+
+@keyframes shimmer {
+  0%, 100% { opacity: 0.3; }
+  50%       { opacity: 0.7; }
+}

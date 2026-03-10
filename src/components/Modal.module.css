@@ -1,0 +1,120 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  padding: 20px;
+  animation: fadeIn 0.2s ease;
+}
+
+.modal {
+  background: #12111f;
+  border: 1px solid #2e2c48;
+  border-radius: 20px;
+  padding: 40px 32px;
+  max-width: 460px;
+  width: 100%;
+  position: relative;
+  animation: slideUp 0.25s ease;
+  box-shadow: 0 32px 80px rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+.close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: #1e1d30;
+  border: 1px solid #2e2c48;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  color: #4a4870;
+  font-size: 13px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s, color 0.15s;
+}
+
+.close:hover {
+  background: #2e2c48;
+  color: #edeaf8;
+}
+
+.avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'DM Mono', monospace;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 auto 16px;
+}
+
+.name {
+  font-family: 'Syne', sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  color: #edeaf8;
+  margin: 0;
+}
+
+.username {
+  font-family: 'DM Mono', monospace;
+  font-size: 13px;
+  color: #7c6af0;
+  margin: 6px 0 0;
+}
+
+.divider {
+  height: 1px;
+  background: #1e1d30;
+  margin: 24px 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  text-align: left;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.label {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: #4a4870;
+  text-transform: uppercase;
+}
+
+.value {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 13px;
+  color: #edeaf8;
+  word-break: break-word;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(20px) scale(0.97); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
