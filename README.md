@@ -1,16 +1,117 @@
-# React + Vite
+# 🚀 People Hub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **React + Vite web application** to explore and connect people in a clean, fast and responsive interface.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** https://people-hub-sigma.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✅ Modern UI with clean design
+✅ Fast performance powered by Vite
+✅ Component-based architecture using React
+✅ Responsive layout for all screen sizes
+✅ Scalable project structure
+✅ ESLint configured for code quality
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+* ⚛️ React
+* ⚡ Vite
+* 🎨 CSS
+* 🧠 JavaScript (ES6+)
+
+---
+
+## 📁 Project Structure
+
+```
+people-hub/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── App.jsx
+│   ├── main.jsx
+│
+├── index.html
+├── package.json
+├── vite.config.js
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```
+git clone https://github.com/kesab1123/people-hub.git
+```
+
+Go inside project
+
+```
+cd people-hub
+```
+
+Install dependencies
+
+```
+npm install
+```
+
+Run development server
+
+```
+npm run dev
+```
+
+---
+
+## 📦 Build for Production
+
+```
+npm run build
+```
+
+---
+
+## 🌍 Deployment
+
+This project is deployed using **Vercel** for fast global delivery.
+
+---
+
+## 📌 Future Improvements
+
+* Add authentication
+* Add backend integration
+* Add search & filter functionality
+* Improve UI animations
+* Add global state management
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+Feel free to fork the repo and submit a pull request.
+
+---
+
+## 📜 License
+
+This project is open-source and available under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+**Kesab Agarwal**
+Frontend Developer | React Learner | Building Modern Web Apps 🚀
+
+⭐ If you like this project, give it a star!
