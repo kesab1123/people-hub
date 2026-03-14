@@ -2,7 +2,7 @@
 
 A modern **React + Vite web application** to explore and connect people in a clean, fast and responsive interface.
 
-🔗 **Live Demo:** https://people-hub-sigma.vercel.app
+🔗 **Live Demo:** [https://people-hub-sigma.vercel.app](https://people-hub-tmkq.vercel.app/)
 
 ---
 
